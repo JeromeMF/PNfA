@@ -56,14 +56,15 @@ $ sudo npm install -g nodemon
 
 ### Test
 
-You can use an application like Postman. 
+You can use an application like Postman.
+The service was build to run on port 3000. You can change this in the file config.json. 
 Simply build a POST request with the following structure (this is an example):
 
 POST /api/v1/send HTTP/1.1
 Host: localhost:3000
 Content-Type: application/json
 Cache-Control: no-cache
-Postman-Token: 09b04a6d-2c53-7b4f-2057-44f037db6704
+Postman-Token: --------------
 
 
 

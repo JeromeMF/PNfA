@@ -1,0 +1,18 @@
+{
+  "name": "firebase-push",
+  "version": "1.0.0",
+  "description": "Sends push notifications through Firebase to iOS/Android devices and Web browsers (chrome, firefox, opera) ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jérôme Figueiredo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "fcm-push": "^1.1.2",
+    "fcm-web-push": "^1.0.1",
+    "firebase": "^3.7.5"
+  }
+}
